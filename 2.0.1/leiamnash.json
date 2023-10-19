@@ -1,13 +1,12 @@
 {
- leiamnashA: [
-  "./gago"
+ "leiamnashA": [
+   "./gago",
+   "./bobo"
  ],
- 
- leiamnashB: [
+ "leiamnashB": [
    null
  ],
- 
- leiamnashC: [
+ "leiamnashC": [
    null
  ]
 }
