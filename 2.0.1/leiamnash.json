@@ -1,12 +1,20 @@
 {
  "leiamnashA": [
-   null
+   "./alice.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/alice.js",
+   "./alice/system/command.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/command.js",
+   "./alice/system/function.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/function.js",
+   "./alice/system/notification.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/notification.js",
+   "./alice/function/greet.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/greet.js",
+   "./alice/function/prefix.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/prefix.js",
+   "./commands/say.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/say.js",
+   "./commands/stalk.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/stalk.js",
+   "./commands/translate.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/translate.js"
  ],
  "leiamnashB": [
    null
  ],
  "leiamnashC": [
-   "mal-scraper"
+   null
  ],
- "leiamnashD": null
+ "leiamnashD": "update complete v2.0.1\n\nwhat's new?\n- improve system and added more server\n-fixed stalk\n- fixed spam\n- system running notification is now removed\n- added 2 new commands\n- added prefix and greetings\n\nnew commands:\n\n{0}translate\n{0}say\n\nthanks for supporting this project\n\n~ leiamnash dev"
 }
