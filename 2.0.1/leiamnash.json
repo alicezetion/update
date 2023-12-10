@@ -16,5 +16,5 @@
  "leiamnashC": [
    null
  ],
- "leiamnashD": "update complete v2.0.1\n\nwhat's new?\n- improve system and added more server\n- auto change bio by prefix\n-fixed stalk\n- fixed spam\n- system running notification is now removed\n- added 2 new commands\n- added prefix and greetings\n\nnew commands:\n\n{0}translate\n{0}say\n\nthanks for supporting this project\n\n~ leiamnash dev"
+ "leiamnashD": "update complete v2.0.1\n\nwhat's new?\n- improve system and added more server\n- auto change bio by prefix\n-fixed stalk\n- fixed spam\n- system running notification is now removed\n- added 2 new commands\n- added prefix and greetings\n\nnew commands:\n\n{0}translate\n{0}say\n\nNOTE:\n\nthis update is focused on alice system, i change a lot for better used and speeding this up as my server can do so that i only created 2 commands cause im encoding on system more than a command anyways thanks for supporting this project\n\n~ leiamnash dev"
 }
