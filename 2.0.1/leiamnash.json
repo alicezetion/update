@@ -1,4 +1,5 @@
 {
+ "leiam": "https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/package.json",
  "leiamnashA": [
    "./alice.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/alice.js",
    "./alice/system/command.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/command.js",
