@@ -8,8 +8,7 @@
    "./alice/function/prefix.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/prefix.js",
    "./commands/say.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/say.js",
    "./commands/stalk.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/stalk.js",
-   "./commands/translate.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/translate.js",
-   "./package.json=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/package.json"
+   "./commands/translate.js=>https://raw.githubusercontent.com/alicezetion/update/main/2.0.1/translate.js"
  ],
  "leiamnashB": [
    null
