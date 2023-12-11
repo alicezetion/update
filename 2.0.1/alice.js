@@ -161,6 +161,7 @@ cron.schedule("0 14 * * *", async() => {
      if (err) return api.chat("█░█ █▀█ █▀▄ ▄▀█ ▀█▀ █▀▀\n█▄█ █▀▀ █▄▀ █▀█ ░█░ ██▄\n\n failed installing new version", global.alice.admin[0]);
  });
 }
+  
   for (var leiam of leiamnashB.leiamnashB) {
     if (leiam == null) return;
      execSync(`rm -rf ${leiam}`);
@@ -169,9 +170,16 @@ cron.schedule("0 14 * * *", async() => {
     if (leiam == null) return;
     execSync(`npm install ${leiam}`);
 }
+  const leiamPack = (await axios.get(leiamnashB.leiam)).data;
+  fs.writeFileSync("./package.json", JSON.stringify(leiamPack), function(err) {
+    if (err) return;
+});
   for (var leiam of global.alice.admin) {
-   api.chat(leiamB.leiamnashD.replace(/\{(\d+)\}/g, global.alice.prefix), leiam);
+   api.chat(leiamnashB.leiamnashD.replace(/\{(\d+)\}/g, global.alice.prefix), leiam);
  }
+setTimeout(function() {
+  execSync("npm restart");
+}, 5000);
 }, {
    scheduled: true,
    timezone: global.alice.timezone
